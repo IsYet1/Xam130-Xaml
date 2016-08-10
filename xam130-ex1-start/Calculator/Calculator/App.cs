@@ -14,7 +14,7 @@ namespace Calculator
             // The root page of your application
             //MainPage = new MainPageOld();
 
-            MainPage = new MainPage1();
+            MainPage = new MainPage();
         }
 
 		protected override void OnStart()
