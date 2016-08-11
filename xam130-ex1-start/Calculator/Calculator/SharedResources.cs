@@ -41,7 +41,7 @@ namespace Calculator
             get
             {
                 var fontSize = 60;
-                //fontSize = 36;
+                fontSize = 36;
                 return fontSize;
             }
         }
@@ -50,7 +50,7 @@ namespace Calculator
             get
             {
                 var borderRadius = 50;
-                //borderRadius = 0;
+                borderRadius = 0;
                 return borderRadius;
             }
         }
