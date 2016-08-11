@@ -18,5 +18,41 @@ namespace Calculator
                 return color;
             }
         }
+
+        public static Color NumberButtonBkColor {
+            get
+            {
+                var color = Color.Yellow;
+                //color = Color.White;
+                return color;
+            }
+        }
+        public static Color NumberButtonTextColor
+        {
+            get
+            {
+                var color = Color.Purple;
+                //color = Color.Black;
+                return color;
+            }
+        }
+        public static double NumberButtonFontSize
+        {
+            get
+            {
+                var fontSize = 60;
+                //fontSize = 36;
+                return fontSize;
+            }
+        }
+        public static int ButtonBorderRadius
+        {
+            get
+            {
+                var borderRadius = 50;
+                //borderRadius = 0;
+                return borderRadius;
+            }
+        }
     }
 }

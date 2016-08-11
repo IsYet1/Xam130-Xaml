@@ -39,21 +39,30 @@
       Text="7" 
       Grid.Row="1" 
       Grid.Column="0"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
     <Button 
       Text="8" 
       Grid.Row="1" 
       Grid.Column="1"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
     <Button 
       Text="9" 
       Grid.Row="1" 
       Grid.Column="2"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
     
@@ -61,21 +70,30 @@
       Text="4" 
       Grid.Row="2" 
       Grid.Column="0"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
       <Button 
       Text="5" 
       Grid.Row="2" 
       Grid.Column="1"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
       <Button 
       Text="6" 
       Grid.Row="2" 
       Grid.Column="2"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
     
@@ -83,21 +101,30 @@
       Text="1" 
       Grid.Row="3" 
       Grid.Column="0"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
       <Button 
       Text="2" 
       Grid.Row="3" 
       Grid.Column="1"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
       <Button 
       Text="3" 
       Grid.Row="3" 
       Grid.Column="2"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
     
@@ -106,7 +133,10 @@
       Grid.Row="4" 
       Grid.Column="0"
       Grid.ColumnSpan="3"
-      BackgroundColor="White" TextColor="Black" FontSize="36" BorderRadius="0"
+      BackgroundColor="{x:Static local:SharedResources.NumberButtonBkColor}" 
+      TextColor="{x:Static local:SharedResources.NumberButtonTextColor}" 
+      FontSize="{x:Static local:SharedResources.NumberButtonFontSize}" 
+      BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
 
