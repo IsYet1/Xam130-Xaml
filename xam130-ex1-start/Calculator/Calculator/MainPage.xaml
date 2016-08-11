@@ -27,7 +27,7 @@
       FontAttributes="Bold" 
       FontSize="48" 
       BackgroundColor="Black" 
-      Text="0" 
+      Text="2" 
       TextColor="White" 
       HorizontalTextAlignment="End"
       VerticalTextAlignment="Center"
@@ -65,7 +65,6 @@
       BorderRadius="{x:Static local:SharedResources.ButtonBorderRadius}"
       Clicked="OnSelectNumber"
       />
-    
     <Button 
       Text="4" 
       Grid.Row="2" 
@@ -157,6 +156,8 @@
       TextColor="White" FontSize="36" BorderRadius="0"
       Clicked="OnSelectOperator"
       />
+    
+
       <Button 
       Text="-" 
       Grid.Row="3" 
@@ -173,6 +174,8 @@
       Clicked="OnSelectOperator"
       />
     
+      <!--
+   -->
 
     <Button Text="C" Grid.Row="5" Grid.Column="0"
                   BackgroundColor="#808080" TextColor="White"
